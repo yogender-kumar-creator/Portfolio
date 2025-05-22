@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogender Kumer Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+        header { background: #333; color: white; padding: 10px 20px; text-align: center; }
+        nav { background: #444; padding: 10px 20px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        section { padding: 20px; background: white; margin: 20px auto; max-width: 900px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1, h2 { color: #333; }
+        footer { text-align: center; padding: 10px; background: #333; color: white; margin-top: 20px; }
+        .contact-form label { display: block; margin-top: 10px; }
+        .contact-form input, .contact-form textarea { width: 100%; padding: 8px; margin-top: 5px; }
+        .contact-form button { margin-top: 10px; padding: 10px 20px; background: #333; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yogender Kumer</h1>
+        <p>B.Tech CSE AI/ML - Lovely Professional University</p>
+    </header>
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Project 1: AI-based Chatbot</li>
+            <li>Project 2: Machine Learning Model for Predictive Analysis</li>
+            <li>Project 3: Web Application using React and Node.js</li>
+            <!-- Add more projects as list items here -->
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="mailto:yogender@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Yogender Kumer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
